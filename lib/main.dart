@@ -63,7 +63,7 @@ class _PaystackWebViewState extends State<PaystackWebView> {
           }
           if (host == "https://hello.pstk.xyz/callback") {
             print("-----------------verify your payment here--------------------");
-            //verifyTransaction(reference);
+            verifyTransaction(reference);
             Navigator.of(context).pop(); //close webview
 
           }
